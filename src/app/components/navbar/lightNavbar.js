@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Home from "../../app/assets/Home.svg";
-import Location from "../../app/assets/Location.svg";
-import Profile from "../../app/assets/Profile.svg";
-import Wallet from "../../app/assets/Wallet.svg";
-import Req from "../../app/assets/Req.svg";
-import Setting from "../../app/assets/Setting.svg";
-import Search from "../../app/assets/Search.svg";
+import Home from "../../../app/assets/Home.svg";
+import Location from "../../../app/assets/Location.svg";
+import Profile from "../../../app/assets/Profile.svg";
+import Wallet from "../../../app/assets/Wallet.svg";
+import Req from "../../../app/assets/Req.svg";
+import Setting from "../../../app/assets/Setting.svg";
+import Search from "../../../app/assets/Search.svg";
 import {
   Box,
   Flex,

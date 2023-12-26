@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../app/assets/logo.svg";
-import Plus from "../../app/assets/Plus.svg";
-import Calendar from "../../app/assets/Calendar.svg";
-import Notification from "../../app/assets/Notification.svg";
-import user from "../../app/assets/user.svg";
-import Frame from "../../app/assets/Frame.svg";
+import logo from "../../../app/assets/logo.svg";
+import Plus from "../../../app/assets/Plus.svg";
+import Calendar from "../../../app/assets/Calendar.svg";
+import Notification from "../../../app/assets/Notification.svg";
+import user from "../../../app/assets/user.svg";
+import Frame from "../../../app/assets/Frame.svg";
 import { Box, Flex, Text } from "@chakra-ui/react";
 
 const DarkNavbar = () => {
