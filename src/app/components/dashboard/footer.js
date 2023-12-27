@@ -19,7 +19,7 @@ const Footer = () => {
           color={"#919191"}
           fontStyle={"normal"}
         >
-          End-end encryption
+          End-to-end encryption
         </Text>
       </Box>
     </>

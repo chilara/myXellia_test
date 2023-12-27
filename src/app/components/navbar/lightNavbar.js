@@ -47,7 +47,6 @@ const LightNavbar = () => {
       padding={"16px"}
       backgroundColor={"#fff"}
       px={"4rem"}
-      //   border={"1px solid green"}
     >
       <Box
         borderRadius={"8px"}
