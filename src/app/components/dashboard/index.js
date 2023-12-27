@@ -11,7 +11,7 @@ import Welcome from "./welcome";
 
 const Dashboard = () => {
   return (
-    <Box px={"4rem"} mt={"1.5rem"}>
+    <Box px={"4rem"} mt={"12rem"}>
       <Welcome />
       <Box mt={".8rem"} display={"flex"} gap={"1.5rem"}>
         <SalesOverview />

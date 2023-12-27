@@ -24,7 +24,6 @@ const OutstandingBalance = () => {
           mt={"1rem"}
         >
           <Text
-            fontFamily={"Euclid Circular B"}
             fontSize={"28px"}
             fontWeight={600}
             color={"191919"}
@@ -35,7 +34,6 @@ const OutstandingBalance = () => {
           </Text>
           <Flex alignItems={"center"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"12px"}
               fontWeight={500}
               color={"#cbcbcb"}
@@ -47,7 +45,6 @@ const OutstandingBalance = () => {
           </Flex>
         </Flex>
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"14px"}
           fontWeight={400}
           color={"#606060"}
@@ -68,7 +65,6 @@ const OutstandingBalance = () => {
           </Flex>
           <Flex flexDir={"column"} gap={"2rem"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"20px"}
               fontWeight={600}
               color={"191919"}
@@ -78,7 +74,6 @@ const OutstandingBalance = () => {
             </Text>
             <Flex flexDir={"column"}>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"14px"}
                 fontWeight={600}
                 color={"#FF6A6A"}
@@ -87,7 +82,6 @@ const OutstandingBalance = () => {
                 $0.00
               </Text>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"12px"}
                 fontWeight={400}
                 color={"606060"}
@@ -102,11 +96,10 @@ const OutstandingBalance = () => {
           gap={".7rem"}
           alignItems={"center"}
           position={"absolute"}
-          left={320}
+          right={5}
           bottom={35}
         >
           <Text
-            fontFamily={"Euclid Circular B"}
             fontSize={"14px"}
             fontWeight={400}
             color={"#606060"}

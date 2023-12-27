@@ -68,7 +68,6 @@ const SalesOverview = () => {
         >
           <Flex flexDir={"column"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"20px"}
               fontWeight={600}
               color={"191919"}
@@ -77,7 +76,6 @@ const SalesOverview = () => {
               Sales Overview
             </Text>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"12px"}
               fontWeight={400}
               color={"606060"}
@@ -104,7 +102,6 @@ const SalesOverview = () => {
             </Box>
             <Box display={"flex"} mt={"1rem"} justifyContent={"space-evenly"}>
               <Box
-                fontFamily={"Euclid Circular B"}
                 fontSize={"14px"}
                 fontWeight={400}
                 color={"3d3d3d"}
@@ -114,7 +111,6 @@ const SalesOverview = () => {
                 1 Week
               </Box>
               <Box
-                fontFamily={"Euclid Circular B"}
                 fontSize={"14px"}
                 fontWeight={400}
                 color={"3d3d3d"}
@@ -124,7 +120,6 @@ const SalesOverview = () => {
                 1 Month
               </Box>
               <Box
-                fontFamily={"Euclid Circular B"}
                 fontSize={"14px"}
                 fontWeight={400}
                 color={"3d3d3d"}
@@ -168,7 +163,6 @@ const SalesOverview = () => {
                 {months.map((item, index) => (
                   <Text
                     key={index}
-                    fontFamily={"Euclid Circular B"}
                     fontSize={"10px"}
                     fontWeight={500}
                     color={"#919191"}
@@ -186,7 +180,7 @@ const SalesOverview = () => {
               borderRadius={"50%"}
               backgroundColor={"#e4e4e4"}
               position={"absolute"}
-              top={490}
+              top={300}
               left={420}
             >
               <Image src={rightArrow} alt="arrow" width={24} height={24} />
@@ -212,7 +206,6 @@ const SalesOverview = () => {
                 flexDir={"column"}
               >
                 <Box
-                  fontFamily={"Proxima Nova"}
                   fontSize={"20px"}
                   fontWeight={600}
                   color={item.color}
@@ -229,7 +222,6 @@ const SalesOverview = () => {
                 </Box>
                 <Flex alignItems={"center"} gap={".2rem"} mt={".2rem"}>
                   <Text
-                    fontFamily={"Proxima Nova"}
                     fontSize={"10px"}
                     fontWeight={600}
                     color={"#3d3d3d"}
@@ -239,7 +231,6 @@ const SalesOverview = () => {
                   </Text>
                   <Image src={item.icon} alt="arrow" width={14} height={14} />
                   <Text
-                    fontFamily={"Proxima Nova"}
                     fontSize={"10px"}
                     fontWeight={600}
                     color={index === 3 ? "#FF6A6A" : "#12D8A0"}

@@ -20,7 +20,6 @@ const DarkNavbar = () => {
       <Flex flexDir={"column"}>
         <Image src={logo} alt="logo" width={90} height={60} />
         <Text
-          fontFamily={"Proxima Nova"}
           fontSize={"14px"}
           fontWeight={400}
           color={"#fff"}
@@ -46,10 +45,13 @@ const DarkNavbar = () => {
           justifyContent={"space-between"}
           alignItems={"center"}
           gap={"1rem"}
+          // position={"fixed"}
+          // top={0}
+          // left={0}
+          // right={0}
         >
           <Image src={user} alt="user" width={48} height={48} />
           <Text
-            fontFamily={"Euclid Circular B"}
             fontSize={"16px"}
             fontWeight={500}
             color={"#fff"}

@@ -38,7 +38,6 @@ const CustomerOverview = () => {
           <Flex gap={".5rem"} alignItems={"center"}>
             <Image src={customer} alt="customer" width={24} height={24} />
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"14px"}
               fontWeight={500}
               color={"3d3d3d"}
@@ -49,7 +48,6 @@ const CustomerOverview = () => {
           </Flex>
           <Flex alignItems={"center"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"12px"}
               fontWeight={500}
               color={"#cbcbcb"}
@@ -72,7 +70,6 @@ const CustomerOverview = () => {
               flexDir={"column"}
             >
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"24px"}
                 fontWeight={600}
                 color={"#191919"}
@@ -82,7 +79,6 @@ const CustomerOverview = () => {
                 {item.number}
               </Text>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"14px"}
                 fontWeight={400}
                 color={"#606060"}

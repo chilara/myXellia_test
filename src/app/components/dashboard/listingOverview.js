@@ -16,7 +16,6 @@ const ListingOverview = () => {
         width={"35%"}
       >
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"20px"}
           fontWeight={600}
           color={"191919"}
@@ -32,7 +31,6 @@ const ListingOverview = () => {
         >
           <Box width={"45%"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"12px"}
               fontWeight={400}
               color={"191919"}
@@ -54,7 +52,6 @@ const ListingOverview = () => {
                 <Image src={noImg} alt="noImg" width={36} height={36} />
               </Flex>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"16px"}
                 fontWeight={600}
                 color={"191919"}
@@ -66,7 +63,6 @@ const ListingOverview = () => {
           </Box>
           <Box width={"45%"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"12px"}
               fontWeight={400}
               color={"191919"}
@@ -88,7 +84,6 @@ const ListingOverview = () => {
                 <Image src={noImg} alt="noImg" width={36} height={36} />
               </Flex>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"16px"}
                 fontWeight={600}
                 color={"191919"}
@@ -101,16 +96,14 @@ const ListingOverview = () => {
         </Box>
         <Box
           display={"flex"}
-          backgroundColor={"#F5F5F5"}
+          backgroundColor={"rgba(245, 245, 245, 0.4)"}
           borderRadius={"12px"}
           padding={"12px"}
           mt={"1rem"}
-          opacity={0.4}
           justifyContent={"space-between"}
         >
           <Box width={"45%"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"12px"}
               fontWeight={400}
               color={"191919"}
@@ -132,7 +125,6 @@ const ListingOverview = () => {
                 <Image src={noImg} alt="noImg" width={36} height={36} />
               </Flex>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"16px"}
                 fontWeight={600}
                 color={"191919"}
@@ -153,7 +145,6 @@ const ListingOverview = () => {
           >
             <Flex justifyContent={"space-between"} alignItems={"center"}>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"20px"}
                 fontWeight={600}
                 color={"191919"}
@@ -164,7 +155,6 @@ const ListingOverview = () => {
               <Image src={Bookmark} alt="bookmark" width={24} height={24} />
             </Flex>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"10px"}
               fontWeight={400}
               color={"191919"}

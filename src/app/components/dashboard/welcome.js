@@ -10,7 +10,7 @@ const Welcome = () => {
         <Flex>
           <Image src={hand} alt="hand" width={29} height={29} />
           <Text
-            fontFamily={"Euclid Circular B"}
+            //
             fontSize={"20px"}
             fontWeight={600}
             color={"#191919"}
@@ -20,7 +20,6 @@ const Welcome = () => {
           </Text>
         </Flex>
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"12px"}
           fontWeight={400}
           color={"#3d3d3d"}

@@ -5,7 +5,7 @@ import { Box } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Box>
+    <Box position={"fixed"} top={0} left={0} right={0}>
       <DarkNavbar />
       <LightNavbar />
     </Box>

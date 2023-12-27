@@ -61,7 +61,6 @@ const LightNavbar = () => {
       >
         <Image src={Home} alt="home" width={26} height={26} />
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"14px"}
           fontWeight={600}
           color={"#191919"}
@@ -80,7 +79,6 @@ const LightNavbar = () => {
           >
             <Image src={item.icon} alt="location" width={26} height={26} />
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"14px"}
               fontWeight={400}
               color={"#3d3d3d"}
@@ -96,7 +94,6 @@ const LightNavbar = () => {
           <Input
             placeholder="Search... properties, customers here"
             fontSize={"12px"}
-            fontFamily={"Euclid Circular B"}
           />
           <InputRightElement>
             <Image src={Search} alt="search" width={24} height={24} />

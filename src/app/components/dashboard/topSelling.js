@@ -19,7 +19,6 @@ const TopSelling = () => {
         position={"relative"}
       >
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"16px"}
           fontWeight={600}
           color={"#12D8A0"}
@@ -29,7 +28,6 @@ const TopSelling = () => {
           Top Selling
         </Text>
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"28px"}
           fontWeight={600}
           color={"191919"}
@@ -40,7 +38,6 @@ const TopSelling = () => {
           <span style={{ color: "#cbcbcb" }}>.00</span>
         </Text>
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"14px"}
           fontWeight={400}
           color={"#606060"}
@@ -59,9 +56,8 @@ const TopSelling = () => {
           >
             <Image src={noImg} alt="noImg" width={100} height={100} />
           </Flex>
-          <Flex flexDir={"column"} gap={"2rem"}>
+          <Flex flexDir={"column"} gap={"1.5rem"}>
             <Text
-              fontFamily={"Euclid Circular B"}
               fontSize={"20px"}
               fontWeight={600}
               color={"191919"}
@@ -71,7 +67,6 @@ const TopSelling = () => {
             </Text>
             <Flex flexDir={"column"}>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"14px"}
                 fontWeight={600}
                 color={"#cbcbcb"}
@@ -80,7 +75,6 @@ const TopSelling = () => {
                 0
               </Text>
               <Text
-                fontFamily={"Euclid Circular B"}
                 fontSize={"12px"}
                 fontWeight={400}
                 color={"606060"}
@@ -98,15 +92,14 @@ const TopSelling = () => {
           padding={"12px"}
           width={"65%"}
           position={"absolute"}
-          left={"170"}
-          top={"240"}
+          right={-4}
+          bottom={7}
           display={"flex"}
           justifyContent={"space-between"}
           alignItems={"center"}
         >
           <Image src={bulb} alt="bulb" width={24} height={24} />
           <Text
-            fontFamily={"Euclid Circular B"}
             fontSize={"20px"}
             fontWeight={400}
             color={"#ffffff"}

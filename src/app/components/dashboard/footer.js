@@ -14,7 +14,6 @@ const Footer = () => {
       >
         <Image src={lock} alt="lock" width={16} height={16} />
         <Text
-          fontFamily={"Euclid Circular B"}
           fontSize={"16px"}
           fontWeight={400}
           color={"#919191"}
