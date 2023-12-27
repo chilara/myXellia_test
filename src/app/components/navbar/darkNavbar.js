@@ -4,7 +4,7 @@ import { useDisclosure } from "@chakra-ui/react";
 import Image from "next/image";
 import logo from "../../../app/assets/logo.svg";
 import Plus from "../../../app/assets/Plus.svg";
-import calendarIcon from "../../../app/assets/calendar.svg";
+import calendarIcon from "../../../app/assets/calendarIcon.svg";
 import Notification from "../../../app/assets/Notification.svg";
 import user from "../../../app/assets/user.svg";
 import Frame from "../../../app/assets/Frame.svg";
@@ -12,8 +12,6 @@ import {
   Box,
   Flex,
   Text,
-  Input,
-  Button,
   Drawer,
   DrawerBody,
   DrawerOverlay,
